@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function userProfile(props) {
+export default function UserProfile(props) {
   return (
     <div>
           <h2>{props.name}</h2>
