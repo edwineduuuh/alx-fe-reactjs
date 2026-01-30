@@ -1,6 +1,6 @@
 import React from 'react'
 
-const userProfile = (props) => {
+const UserProfile = (props) => {
   return (
     <div>
       <h2>{props.name}</h2>
@@ -10,4 +10,4 @@ const userProfile = (props) => {
   )
 }
 
-export default userProfile
+export default UserProfile
