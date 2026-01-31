@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import UserProfile from "./components/UserProfile";
 import WelcomeMessage from "./components/WelcomeMessage";
-import UserContext from "./UserContext";
+import UserContext from "./components/UserContext";
 import ProfilePage from "../../alx-react-app-props/src/components/ProfilePage";
 
 export default function App() {
