@@ -1,6 +1,7 @@
 import React from 'react'
 import UserInfo from './UserInfo'
 
+
 const ProfilePage = () => {
   return (
     <div>
