@@ -6,7 +6,7 @@ const UserDetails = () => {
     const userData = useContext(UserContext)
   return (
     <div>
-          <p>Name: {userData.name }</p>
+          <p>Name: {userData.name}</p>
           <p>Name: {userData.email }</p>
     </div>
   )
