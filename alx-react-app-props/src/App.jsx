@@ -8,16 +8,18 @@ import UserContext from "./components/UserContext";
 import ProfilePage from "../../alx-react-app-props/src/components/ProfilePage";
 
 export default function App() {
-  const userData = {name:"John Doe", email: "johndoe@gmail.com"}
+  const userData = {name:"John Doe", email: "johndoe@gmail.com", bio: "Loves hiking"}
   return (
     <div>
       <Header />
       <MainContent />
       <Footer />
-       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+      {/* <UserProfile name="Alice" age="25" bio="Loves hiking and photography" /> */}
+      
       <WelcomeMessage />
       <Counter />
       <UserContext.Provider value={userData}>
+        <UserProfile/>
           <ProfilePage />
       </UserContext.Provider>
     </div>
